@@ -14,7 +14,9 @@
             justify-content: center;
             align-items: center;
             background: url('img/aleja.jpg') no-repeat center center/cover;
+            background-size: 1000px 1000px;
             font-family: 'Arial', sans-serif;
+            background-color: black;
         }
 
         h1, h2 {
@@ -26,12 +28,13 @@
         h1 {
             font-size: 8vw;
             animation: fadeInOut 3s infinite; /* Animación suave */
+            animation: pulse 4s infinite;
         }
 
         h2 {
             font-size: 4vw;
             margin-top: 20px;
-            animation: pulse 2s infinite; /* Pequeño efecto de pulsación */
+            animation: pulse 4s infinite; /* Pequeño efecto de pulsación */
         }
 
         button {
@@ -39,12 +42,13 @@
             padding: 15px 30px;
             margin-top: 30px;
             border: none;
-            margin-left: 200px;
+            margin-left: 330px;
             background-color: #ff3366;
             color: white;
             cursor: pointer;
             border-radius: 50px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+            animation: pulse 4s infinite;
         }
 
         @keyframes fadeInOut {
